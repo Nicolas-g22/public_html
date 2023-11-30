@@ -1,0 +1,7 @@
+table, tr, td, th{
+    border: 1px black ridge;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}

@@ -1,0 +1,28 @@
+table, td, tr, th{
+    border : black solid 2px;
+    border-collapse: collapse;
+}
+
+.null{
+    background-color: #666666;
+}
+.allee{
+    border-bottom: solid black 2px;
+}
+
+.rayon{
+    font-weight: bold;
+}
+
+.titre{
+    background-color: #ffcccc;
+}
+
+.auteur{
+    background-color: #ccffcc;
+}
+
+.numouvrage{
+    background-color: #ccccff;
+}
+

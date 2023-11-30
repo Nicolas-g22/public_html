@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Boite à outils ajax sur la bdd france2015</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/france.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="js/libs/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/france.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <!-- étiquette onglet 1 -->
+            <li class="nav-item nav-pills">
+                <a class="nav-link active" id="rechercheDepPourVille-tab" data-toggle="tab" href="#rechercheDepPourVille" role="tab" aria-controls="rechercheDepPourVille" aria-selected="true">
+                    Départements pour ville
+                </a>
+            </li>
+            <!-- étiquette onglet 2 -->
+            <li class="nav-item nav-pills">
+                <a class="nav-link" id="tabRegions-tab" data-toggle="tab" href="#tabRegions" role="tab" aria-controls="tabRegions" aria-selected="false">
+                    Tableau régions
+                </a>
+            </li>
+            <!-- étiquette onglet 3 -->
+            <li class="nav-item nav-pills">
+                <a class="nav-link" id="tabDepartementRegion-tab" data-toggle="tab" href="#tabDepartementRegion" role="tab" aria-controls="tabDepartementRegion" aria-selected="false">
+                    Tableau départements et régions
+                </a>
+            </li>
+            <!-- étiquette onglet 4 -->
+            <li class="nav-item nav-pills">
+                <a class="nav-link" id="tabDepartementNumero-tab" data-toggle="tab" href="#tabDepartementNumero" role="tab" aria-controls="tabDepartementNumero" aria-selected="false">
+                    Département pour numéro
+                </a>
+            </li>
+            <!-- étiquette onglet 5 -->
+            <li class="nav-item nav-pills">
+                <a class="nav-link" id="tabRegionDepartement-tab" data-toggle="tab" href="#tabRegionDepartement" role="tab" aria-controls="tabRegionDepartement" aria-selected="false">
+                    Départements pour région
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <!-- contenu onglet 1 -->
+            <div class="tab-pane fade show active" id="rechercheDepPourVille" role="tabpanel" aria-labelledby="rechercheDepPourVille-tab">
+                <form id="formVilleDept">
+                    <input name="ville" id="ville" placeholder="nom d'une ville" required="required"/>
+                    <input type="submit"/>
+                    
+                </form>
+                <table id="tableauDepartementsVille">
+                    
+                </table>
+            </div>
+            <!-- contenu onglet 2 -->
+            <div class="tab-pane fade" id="tabRegions" role="tabpanel" aria-labelledby="tabRegions-tab">
+                <table id="tableauRegions">
+                    
+                </table>
+            </div>
+            <!-- contenu onglet 3 -->
+            <div class="tab-pane fade" id="tabDepartementRegion" role="tabpanel" aria-labelledby="tabDepartementRegion-tab">
+                <table id="tableauDepartementsRegions">
+                    
+                </table>
+            </div>
+            <!-- contenu onglet 4 -->
+            <div class="tab-pane fade" id="tabDepartementNumero" role="tabpanel" aria-labelledby="tabDepartementNumero-tab">
+                <form id="formNumDept">
+                    <input name="dep" id="dep" placeholder="numéro d'un département" required="required"/>
+                    <input type="submit"/>                    
+                </form>
+            </div>
+            <!-- contenu onglet 5 -->
+            <div class="tab-pane fade" id="tabRegionDepartement" role="tabpanel" aria-labelledby="tabRegionDepartement-tab">
+                <select id="regions"></select>
+                <table id="tableauDepartements"></table>
+            </div>
+            
+        </div>
+    </body>
+</html>

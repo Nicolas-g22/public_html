@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<?xml-stylesheet href="medailles.xsl" type"text/xsl?>
+<!DOCTYPE JeuxOlympiques SYSTEM "medailles.dtd">
+
+<JeuxOlympiques>
+    <Classement>
+        <Pays nomDePays="USA">
+            <Nom>États-Unis</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>121</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Grande-Bretagne">
+            <Nom>Grande-Bretagne</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>67</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Chine">
+            <Nom>Chine</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>70</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Russie">
+            <Nom>Russie</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>56</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Allemagne">
+            <Nom>Allemagne</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>42</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Japon">
+            <Nom>Japon</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>41</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="France">
+            <Nom>France</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>42</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Corée du Sud">
+            <Nom>Corée du Sud</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>21</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Italie">
+            <Nom>Italie</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>28</TotalMedailles>
+        </Pays>
+        <Pays nomDePays="Australie">
+            <Nom>Australie</Nom>
+            <Medaille typeDeMedaille="or"/>
+            <Medaille typeDeMedaille="argent"/>
+            <Medaille typeDeMedaille="bronze"/>
+            <TotalMedailles>29</TotalMedailles>
+        </Pays>
+    </Classement>
+</JeuxOlympiques>

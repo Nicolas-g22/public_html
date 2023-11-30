@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT JeuxOlympiques (Classement*)>
+<!ELEMENT Classement (Pays*)>
+<!ELEMENT Pays (Nom, Medaille+, TotalMedailles?)>
+<!ATTLIST Pays
+           nomDePays (USA | Grande-Bretagne | Chine | Russie | Allemagne | Japon | France | Corée-du-Sud | Italie | Australie) #REQUIRED>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Medaille EMPTY>
+<!ATTLIST Medaille
+           typeDeMedaille (or | argent | bronze) #REQUIRED>
+<!ELEMENT TotalMedailles (#PCDATA)>

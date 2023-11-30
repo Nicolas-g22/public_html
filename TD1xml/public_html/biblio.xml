@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "biblio.dtd">
+<?xml-stylesheet href="biblio.xsl" type="text/xsl"?>
+<biblio>
+    <allee numero="1">
+        <rayon numero="1">
+            <ouvrage type="litterature">
+                <nomouvrage>Le papillon des étoiles</nomouvrage>
+                <auteur>Bernard WERBER</auteur>
+                <numouvrage></numouvrage>
+            </ouvrage>
+            
+            <ouvrage type="manuelScolaire">
+                <nomouvrage>Les Formes de base</nomouvrage>
+                <auteur>Daniele Dumont</auteur>
+                <numouvrage></numouvrage>
+            </ouvrage>
+            
+            <ouvrage type="scienceEtTechnique">
+                <nomouvrage>XML et XSL : Les feuilles de style XML</nomouvrage>
+                <auteur>Cyril Vincent</auteur>
+                <numouvrage></numouvrage>
+            </ouvrage>
+        </rayon>
+  
+        <rayon numero="2">
+            <ouvrage type="periodique">
+                <nomouvrage>LINUX magazine</nomouvrage>
+                <auteur></auteur>
+                <numouvrage>102</numouvrage>
+            </ouvrage>
+
+            <ouvrage type="periodique">
+                <nomouvrage>Closer</nomouvrage>
+                <auteur></auteur>
+                <numouvrage></numouvrage>
+            </ouvrage>
+
+            <ouvrage type="litterature">
+                <nomouvrage>Harry Potter</nomouvrage>
+                <auteur>JK Rollin</auteur>
+                <numouvrage>1</numouvrage>
+            </ouvrage>
+        </rayon>
+    </allee>
+
+    <allee numero="2">
+        <rayon numero="1">
+            <ouvrage type="litterature">
+                <nomouvrage>Jeu de nains</nomouvrage>
+                <auteur>Terry Pratchett</auteur>
+                <numouvrage>31</numouvrage>
+            </ouvrage>
+        </rayon>
+
+        <rayon numero="2">
+            <ouvrage type="litterature">
+                <nomouvrage>Fondation</nomouvrage>
+                <auteur>Isaac Asimov</auteur>
+                <numouvrage>2</numouvrage>
+            </ouvrage>
+
+            <ouvrage type="scienceEtTechnique">
+                <nomouvrage>Ajax, jQuery et PHP</nomouvrage>
+                <auteur>Jean-marie Defrance</auteur>
+                <numouvrage></numouvrage>
+            </ouvrage>
+        </rayon>
+    </allee>
+</biblio>

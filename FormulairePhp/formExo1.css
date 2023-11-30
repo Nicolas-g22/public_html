@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 févr. 2022, 14:51:07
+    Author     : pcruchet
+*/
+
+#formulaire{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 1000px;
+    height: 600px;
+    background-color: #dddddd;
+}
+
+#civilite{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 400px;
+    height: 320px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+#savoirs{
+    position: absolute;
+    top: 10px;
+    left: 460px;
+    width: 510px;
+    height: 320px;
+    background-color: #ccffcc;
+    padding: 10px;
+}
+#connexion{
+    position: absolute;
+    top: 360px;
+    left: 20px;
+    width: 950px;
+    height: 150px;
+    background-color: lemonchiffon;
+    padding: 10px;
+}
+
+.position_label{
+    position: relative;
+    left: 10px;
+}
+.position_label2{
+    position: absolute;
+    left: 180px;
+}
+
+.position_input{
+    position: absolute;
+    left: 150px;
+}
+
+.position_input2{
+    position: absolute;
+    left: 225px;
+}
+
+.position_input3{
+    position: absolute;
+    left: 90px;
+}
+
+#label-version{
+    position: absolute;
+    left: 320px;
+}
+
+#version{
+    position: absolute;
+    left:400px;
+}
+
+#inscription{
+    position: absolute;
+    top: 550px;
+   right: 300px;
+}
+
+#clean{
+    position: absolute;
+    top:550px;
+    right: 30px;
+}
